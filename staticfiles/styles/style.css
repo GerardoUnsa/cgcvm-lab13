@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:display=swap');
+.titulos {
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 50px;
+  font-weight: 100;
+  color:  white;
+}
+
+.container {
+  width: 99%;
+  text-align: center;
+  background-color: transparent;
+  position:absolute;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.button {
+  font: 700 1.2rem 'Roboto Slab', sans-serif;
+  padding: 1em 2em;
+  text-decoration: none;
+  background-color: transparent;
+  color: #55d7dc;
+  border: 5px solid #55d7dc;
+}
